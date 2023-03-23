@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole generali */
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Regole header */
+
+.bottoni{
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.full-screen{
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.sp-view{
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.testata{
+    background-color: black;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+}
+
+/* Regole footer */
+
+
+
+.command-bar{
+
+    color: #fff;
+    background-color: #222222;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 12px;
+}
+
+.left-bttn{
+    position: relative;
+    display: flex;
+}
+
+.micro-bttn{
+    position: relative;
+    width: 70px;
+    text-align: center;
+}
+
+.video-bttn{
+    position: relative;
+    width: 70px;
+    text-align: center;
+}
+
+.icon{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-txt{
+    color: #fff;
+    font-size: 12px;
+}
+
+.expand-bttn{
+    position:absolute;
+    right: 0;
+    top: 40%;
+}
+
