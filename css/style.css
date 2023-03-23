@@ -52,7 +52,7 @@ body{
 
 
 .command-bar{
-
+    display: flex;
     color: #fff;
     background-color: #222222;
     width: 100vw;
@@ -60,23 +60,29 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
-    padding-top: 12px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* Regole bottoni sinistra */
 
 .left-bttn{
     position: relative;
+    width: 15%;
     display: flex;
 }
 
 .micro-bttn{
     position: relative;
-    width: 70px;
+    width: 50%;
     text-align: center;
+    margin-right: 8px;
 }
 
 .video-bttn{
     position: relative;
-    width: 70px;
+    width: 50%;
     text-align: center;
 }
 
@@ -95,5 +101,31 @@ body{
     position:absolute;
     right: 0;
     top: 40%;
+    margin-left: 100px;
+}
+
+/* Regole bottoni centro */
+
+.middle-bttn{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.screenshare-bttn{
+    position: relative;
+}
+
+/* Regole bottoni destra */
+
+.right-bttn{
+
+    width: 15%;
+    height: 80px;
+    color: red;
+    background-color: #4a4a4a;
+    text-align: center;
 }
 
